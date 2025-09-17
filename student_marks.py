@@ -13,15 +13,16 @@ Percentage = (Total_Marks / 500) * 100
 print("Percentage =", Percentage,"%")
 
 # Conditions
-if Percentage >= 100 and Percentage < 90 :
+if Percentage >= 90 and Percentage <=100 :
     print("Grade = A+")
-elif Percentage >= 80 and Percentage < 89 :
+elif Percentage >= 80 and Percentage <= 89 :
     print("Grade = A")
-elif Percentage >= 70 and Percentage < 79 :
+elif Percentage >= 70 and Percentage <= 79 :
     print("Grade = B")
-elif Percentage >= 60 and Percentage < 69 :
+elif Percentage >= 60 and Percentage <= 69 :
     print("Grade = C")
-elif Percentage >= 50 and Percentage < 59 :
+elif Percentage >= 50 and Percentage <= 59 :
     print("Grade = D")
 else :
     print("Grade = E")
+
